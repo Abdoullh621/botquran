@@ -4,10 +4,10 @@ import asyncio
 from discord import PCMVolumeTransformer, FFmpegPCMAudio
 from datetime import datetime, timezone, timedelta
 
-TOKEN = 'Votre Token'  # Bot Token
-GUILD_ID = 'le id de votre serveur discord'  # Server id
-CHANNEL_ID = 'le id de votre salon vocale'  # channel id ( Voice)
-RADIO_URL = 'un url de quran radio'  # URL de la station de radio
+TOKEN = 'Token bot'  # Bot Token
+GUILD_ID = 'Server id '  # Server id
+CHANNEL_ID = 'id canal voice '  # channel id ( Voice)
+RADIO_URL = 'Mp3 Radio'  # URL de la station de radio
 
 intents = discord.Intents.default()
 intents.voice_states = True
